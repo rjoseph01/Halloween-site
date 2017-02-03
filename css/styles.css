@@ -1,0 +1,82 @@
+body {
+  background: black;
+}
+
+.header {
+  color: orange;
+  background: black;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3px;
+  width: 500px;
+}
+
+.toprow {
+  display: flex;
+  width: 500px;
+  height: 156px;
+}
+
+.header img {
+  float: right;
+  width: 100px;
+}
+
+.ghost img {
+  width: 150px;
+  align: left;
+  vertical-align: middle;
+}
+
+.ghosttalk {
+  align: right;
+  flex: 1;
+  position: fixed;
+  left: 160px;
+}
+
+.ghosttalk h2 {
+  color: white;
+  text-align: left;
+}
+
+.options {
+  vertical-align: bottom;
+}
+
+h2 {
+  color: yellow;
+}
+
+h4 {
+  color: aqua;
+}
+
+button {
+  background: MidnightBlue;
+  color: OldLace;
+  border: MidnightBlue;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.popups{
+  display: flex;
+}
+.monster{
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+.monster img{
+  width: 100px;
+}
+.Owl {
+font-size: 20px;
+color: white;
+display: none;
+}
+.Owl img {
+  width: 80px;
+}
